@@ -7,23 +7,25 @@ red>>
 #ff0b55 見出し
 */
 
-
-body{
+body {
     font-family: "M PLUS Rounded 1c"
 }
-.navi-bar{
+
+.navi-bar {
     background-color: #323232;
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
+
 .btn-outline-success {
     color: #fff;
     border-color: #fff;
 }
 
-.container{
+.container {
     margin: 20px auto;
     /*
     margin-right: auto;
@@ -38,65 +40,85 @@ a{
     */
 }
 
-
-h1{
+h1 {
     text-align: center;
-    margin:  10px 0;
+    margin: 10px 0;
     color: #ff0b55;
 }
-.top-image{
+
+.top-image {
     text-align: center;
     margin: 20px 0;
 }
-.top-image > img{
+
+.top-image>img {
     max-width: 80%;
 }
-.info{
-    margin: 30px 0;
+
+.info {
     font-size: 18px;
     display: block;
     text-align: center;
-
     border-top: #d61d4e solid 5px;
     padding: 10px;
     border-radius: 0 0 5px 5px;
     box-shadow: 0px 5px 5px 0 rgba(200, 200, 200, 1);
-
 }
-._info{
+
+._info {
     white-space: pre-line;
-
 }
 
-
-a._link{
+a._link {
     color: #ff0b55;
 }
 
-.btn-primary{
+.btn-primary {
     color: #fff;
     background-color: #323232;
     border-color: #323232;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: #000;
     border-color: #000;
     color: #fff;
 }
-.card-body{
+
+.card-body {
     word-break: break-all;
 }
-.nav-item._twitter{
+
+.card {
+    margin-bottom: 20px;
+    s
+}
+
+.nav-item._twitter {
     position: relative;
     top: 10px;
 }
-.discord{
+
+.discord {
     display: inline-block;
 }
 
-.Twitter{
+.Twitter {
     overflow-y: scroll;
     width: 300px;
     height: 500px;
     display: inline-block;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+.navbar-toggler-icon {
+    content: url("../images/bars-solid.svg");
+}
+
+.modal-footer {
+    justify-content: center;
 }

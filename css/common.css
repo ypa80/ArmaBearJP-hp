@@ -1,4 +1,17 @@
-.display-4{
+.display-4 {
     white-space: pre-wrap;
     text-align: center;
+}
+
+@media (min-width: 992px) {
+    .offset-lg-3 {
+        margin: 10px auto;
+        margin-bottom: 45px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        margin: 15px 0;
+    }
 }
